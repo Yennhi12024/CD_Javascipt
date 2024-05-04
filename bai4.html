@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <form class="w-75 mt-5 m-auto" id="form">
+            <div class="row">
+                <div class="col-6 mb-2">
+                    <label for="masv">MSSV</label>
+                    <input type="text" placeholder="Nhập mã sinh viên" id="masv" class="form-control">
+                </div>
+                <div class="col-6 mb-2">
+                    <label for="hoten">Họ và tên</label>
+                    <input type="text" placeholder="Nhập họ và tên" id="hoten" class="form-control">
+                </div>
+                <div class="col-6 mb-2">
+                    <label for="lop">Mã lớp</label>
+                    <input type="text" placeholder="Nhập mã lớp" id="lop" class="form-control">
+                </div>
+                <div class="col-6 mb-2">
+                    <label for="ngaysinh">Ngày sinh</label>
+                    <input type="date" id="ngaysinh" class="form-control">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3" id="themsv">Submit</button>
+        </form>
+    </div>
+    <div class="container">
+        <table class="table table-bordered mt-5">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+
+            <thead>
+                <tr>
+                    <th>Mã sinh viên</th>
+                    <th>Họ tên</th>
+                    <th>Mã lớp</th>
+                    <th>Ngày sinh</th>
+                </tr>
+            </thead>
+            <tbody id="show"></tbody>
+        </table>
+    </div>
+    <script src="bai4.js"></script>
+</body>
+
+</html>
