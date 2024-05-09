@@ -1,0 +1,44 @@
+/* Căn giữa form */
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Danh sách môn học */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Nút xóa */
+.delete-button {
+    background-color: #ff6666;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+Căn giữa game
+#game {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Kết quả */
+/* #result {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+} */
+/* Căn giữa converter */
+#converter {
+    text-align: center;
+    margin-bottom: 20px;
+}
