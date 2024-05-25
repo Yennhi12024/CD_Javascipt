@@ -18,9 +18,10 @@ const Products = () => {
             <del>120.000đ</del>
           </span>
         </div>
-        <a href="#" className="btn btn-primary">
-          Mua ngay
-        </a>
+        <div className="mb-3 d-flex gap-2">
+                <a className="btn btn-primary" href="index.php?opt=checkout">Mua ngay</a>
+                <button className="btn btn-primary">Thêm vào giỏ hàng</button>
+              </div>
       </div>
     </div>
   );
